@@ -469,6 +469,7 @@ stringType	:
 	|UTF8String
 	|GeneralizedTime
 	|UTCTime
+	|Date
 	;
 	
 referencedType
@@ -668,6 +669,7 @@ PLUS_INFINITY : 'PLUS-INFINITY';
 MINUS_INFINITY	: 'MINUS-INFINITY';		
 GeneralizedTime  :	'GeneralizedTime';
 UTCTime  :	'UTCTime';
+Date    	: 'Date';
 MANTISSA	: 'mantissa';
 BASE		: 'base';
 EXPONENT	: 'exponent';
